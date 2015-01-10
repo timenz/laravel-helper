@@ -1,0 +1,20 @@
+{
+    "name": "timenz/helper",
+    "description": "Collection of custom php function for my laravel app",
+    "authors": [
+        {
+            "name": "Timen Chad",
+            "email": "timenmail@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Timenz\\Helper": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
